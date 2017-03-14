@@ -66,7 +66,130 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CF.Data\bin\Debug\CF.Data.dll" />
+    <Content Include="CF.Data\bin\Debug\CF.Data.pdb" />
+    <Content Include="CF.Data\bin\Debug\EntityFramework.dll" />
+    <Content Include="CF.Data\bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="CF.Data\bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="CF.Data\bin\Debug\EntityFramework.xml" />
+    <Content Include="CF.Data\CF.Data.csproj" />
+    <Content Include="CF.Data\obj\Debug\CF.Data.csproj.FileListAbsolute.txt" />
+    <Content Include="CF.Data\obj\Debug\CF.Data.dll" />
+    <Content Include="CF.Data\obj\Debug\CF.Data.pdb" />
+    <Content Include="CF.Repo\bin\Debug\CF.Data.dll" />
+    <Content Include="CF.Repo\bin\Debug\CF.Data.pdb" />
+    <Content Include="CF.Repo\bin\Debug\CF.Repo.dll" />
+    <Content Include="CF.Repo\bin\Debug\CF.Repo.pdb" />
+    <Content Include="CF.Repo\bin\Debug\EntityFramework.dll" />
+    <Content Include="CF.Repo\bin\Debug\EntityFramework.xml" />
+    <Content Include="CF.Repo\obj\Debug\CF.Repo.csproj.FileListAbsolute.txt" />
+    <Content Include="CF.Repo\obj\Debug\CF.Repo.dll" />
+    <Content Include="CF.Repo\obj\Debug\CF.Repo.pdb" />
+    <Content Include="CURDCodeFirst\bin\CF.Data.dll" />
+    <Content Include="CURDCodeFirst\bin\CF.Data.pdb" />
+    <Content Include="CURDCodeFirst\bin\CF.Repo.dll" />
+    <Content Include="CURDCodeFirst\bin\CF.Repo.pdb" />
+    <Content Include="CURDCodeFirst\bin\CURDCodeFirst.dll" />
+    <Content Include="CURDCodeFirst\bin\CURDCodeFirst.pdb" />
+    <Content Include="CURDCodeFirst\bin\EntityFramework.dll" />
+    <Content Include="CURDCodeFirst\bin\EntityFramework.SqlServer.dll" />
+    <Content Include="CURDCodeFirst\bin\EntityFramework.SqlServer.xml" />
+    <Content Include="CURDCodeFirst\bin\EntityFramework.xml" />
+    <Content Include="CURDCodeFirst\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="CURDCodeFirst\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="CURDCodeFirst\bin\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="CURDCodeFirst\bin\Newtonsoft.Json.dll" />
+    <Content Include="CURDCodeFirst\bin\roslyn\csc.exe" />
+    <Content Include="CURDCodeFirst\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="CURDCodeFirst\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="CURDCodeFirst\bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="CURDCodeFirst\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="CURDCodeFirst\bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="CURDCodeFirst\bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="CURDCodeFirst\bin\roslyn\vbc.exe" />
+    <Content Include="CURDCodeFirst\bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="CURDCodeFirst\bin\System.Web.Helpers.dll" />
+    <Content Include="CURDCodeFirst\bin\System.Web.Helpers.xml" />
+    <Content Include="CURDCodeFirst\bin\System.Web.Mvc.dll" />
+    <Content Include="CURDCodeFirst\bin\System.Web.Mvc.xml" />
+    <Content Include="CURDCodeFirst\bin\System.Web.Optimization.dll" />
+    <Content Include="CURDCodeFirst\bin\System.Web.Optimization.xml" />
+    <Content Include="CURDCodeFirst\bin\System.Web.Razor.dll" />
+    <Content Include="CURDCodeFirst\bin\System.Web.Razor.xml" />
+    <Content Include="CURDCodeFirst\bin\System.Web.Webpages.Deployment.dll" />
+    <Content Include="CURDCodeFirst\bin\System.Web.Webpages.Deployment.xml" />
+    <Content Include="CURDCodeFirst\bin\System.Web.Webpages.dll" />
+    <Content Include="CURDCodeFirst\bin\System.Web.Webpages.Razor.dll" />
+    <Content Include="CURDCodeFirst\bin\System.Web.Webpages.Razor.xml" />
+    <Content Include="CURDCodeFirst\bin\System.Web.Webpages.xml" />
+    <Content Include="CURDCodeFirst\bin\WebGrease.dll" />
+    <Content Include="CURDCodeFirst\Content\bs3\css\bootstrap-theme.css" />
+    <Content Include="CURDCodeFirst\Content\bs3\css\bootstrap-theme.min.css" />
+    <Content Include="CURDCodeFirst\Content\bs3\css\bootstrap.css" />
+    <Content Include="CURDCodeFirst\Content\bs3\css\bootstrap.min.css" />
+    <Content Include="CURDCodeFirst\Content\bs3\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="CURDCodeFirst\Content\Site.css" />
+    <Content Include="CURDCodeFirst\Global.asax" />
+    <Content Include="CURDCodeFirst\obj\Debug\CURDCodeFirst.csproj.FileListAbsolute.txt" />
+    <Content Include="CURDCodeFirst\obj\Debug\CURDCodeFirst.dll" />
+    <Content Include="CURDCodeFirst\obj\Debug\CURDCodeFirst.pdb" />
+    <Content Include="CURDCodeFirst\Scripts\bootstrap.js" />
+    <Content Include="CURDCodeFirst\Scripts\bootstrap.min.js" />
+    <Content Include="CURDCodeFirst\Scripts\bootstrap1.js" />
+    <Content Include="CF.Repo\obj\Debug\CF.Repo.csprojResolveAssemblyReference.cache" />
+    <Content Include="CF.Repo\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="CF.Data\App.config" />
+    <Content Include="CF.Data\bin\Debug\CF.Data.dll.config" />
+    <Content Include="CF.Data\obj\Debug\CF.Data.csprojResolveAssemblyReference.cache" />
+    <Content Include="CF.Data\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="CF.Data\packages.config" />
+    <Content Include=".vs\applicationhost.config" />
+    <None Include="CURDCodeFirst\Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="CURDCodeFirst\Scripts\jquery-1.10.2.js" />
+    <Content Include="CURDCodeFirst\Scripts\jquery-1.10.2.min.js" />
+    <None Include="CURDCodeFirst\Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="CURDCodeFirst\Scripts\jquery.validate.js" />
+    <Content Include="CURDCodeFirst\Scripts\jquery.validate.min.js" />
+    <Content Include="CURDCodeFirst\Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="CURDCodeFirst\Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="CURDCodeFirst\Scripts\modernizr-2.6.2.js" />
+    <Content Include="CURDCodeFirst\Scripts\respond.js" />
+    <Content Include="CURDCodeFirst\Scripts\respond.min.js" />
+    <Content Include="CURDCodeFirst\Scripts\student-index.js" />
+    <None Include="CURDCodeFirst\Scripts\_references.js" />
     <Content Include="packages.config" />
+    <Content Include="CURDCodeFirst\bin\CURDCodeFirst.dll.config" />
+    <Content Include="CURDCodeFirst\bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="CURDCodeFirst\bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="CURDCodeFirst\bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="CURDCodeFirst\Content\bs3\css\bootstrap-theme.css.map" />
+    <Content Include="CURDCodeFirst\Content\bs3\css\bootstrap.css.map" />
+    <Content Include="CURDCodeFirst\Content\bs3\css\vssver2.scc" />
+    <Content Include="CURDCodeFirst\Content\bs3\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="CURDCodeFirst\Content\bs3\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="CURDCodeFirst\Content\bs3\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="CURDCodeFirst\Content\bs3\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="CURDCodeFirst\Content\bs3\fonts\vssver2.scc" />
+    <Content Include="CURDCodeFirst\obj\Debug\CURDCodeFirst.csprojResolveAssemblyReference.cache" />
+    <Content Include="CURDCodeFirst\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="CURDCodeFirst\packages.config" />
+    <Content Include="CURDCodeFirst\Scripts\jquery-1.10.2.min.map" />
+    <Content Include="CURDCodeFirst\Views\Shared\_Layout.cshtml" />
+    <Content Include="CURDCodeFirst\Views\Shared\_Modal.cshtml" />
+    <Content Include="CURDCodeFirst\Views\Shared\_ModalFooter.cshtml" />
+    <Content Include="CURDCodeFirst\Views\Shared\_ModalHeader.cshtml" />
+    <Content Include="CURDCodeFirst\Views\Student\Index.cshtml" />
+    <Content Include="CURDCodeFirst\Views\Student\_AddEditStudent.cshtml" />
+    <Content Include="CURDCodeFirst\Views\Student\_DeleteStudent.cshtml" />
+    <Content Include="CURDCodeFirst\Views\web.config" />
+    <Content Include="CURDCodeFirst\Views\_ViewStart.cshtml" />
+    <Content Include="CURDCodeFirst\Web.config" />
+    <None Include="CURDCodeFirst\Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="CURDCodeFirst\Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -78,7 +201,44 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CF.Data\BaseEntity.cs" />
+    <Compile Include="CF.Data\CurdDbContext.cs" />
+    <Compile Include="CF.Data\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="CF.Data\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="CF.Data\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="CF.Data\Properties\AssemblyInfo.cs" />
+    <Compile Include="CF.Data\Student.cs" />
+    <Compile Include="CF.Data\StudentMap.cs" />
+    <Compile Include="CF.Repo\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="CF.Repo\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="CF.Repo\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="CF.Repo\Properties\AssemblyInfo.cs" />
+    <Compile Include="CF.Repo\Repository.cs" />
+    <Compile Include="CF.Repo\UnitOfWork.cs" />
+    <Compile Include="CURDCodeFirst\App_Start\BundleConfig.cs" />
+    <Compile Include="CURDCodeFirst\App_Start\RouteConfig.cs" />
+    <Compile Include="CURDCodeFirst\Code\ModelSize.cs" />
+    <Compile Include="CURDCodeFirst\Controllers\StudentController.cs" />
+    <Compile Include="CURDCodeFirst\Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="CURDCodeFirst\Models\BootstrapModel.cs" />
+    <Compile Include="CURDCodeFirst\Models\ModalFooter.cs" />
+    <Compile Include="CURDCodeFirst\Models\ModalHeader.cs" />
+    <Compile Include="CURDCodeFirst\Models\StudentViewModel.cs" />
+    <Compile Include="CURDCodeFirst\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="CURDCodeFirst\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="CURDCodeFirst\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="CURDCodeFirst\Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CF.Data\bin\Release\" />
+    <Folder Include="CF.Data\obj\Debug\TempPE\" />
+    <Folder Include="CF.Repo\bin\Release\" />
+    <Folder Include="CF.Repo\obj\Debug\TempPE\" />
+    <Folder Include="CURDCodeFirst\App_Data\" />
+    <Folder Include="CURDCodeFirst\obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
